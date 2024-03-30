@@ -1,38 +1,57 @@
-.App {
-  text-align: center;
+.navUser {
+  background: coral;
+  /* width: 250px; */
+  height: 50px;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.questions {
+  max-width: 600px;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+.questions .questionBox {
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.questions .questionBox:hover {
+  text-decoration: none !important;
+}
+.questions .questionBox .author {
+  font-size: 20px;
+}
+.questions .questionBox .wouldRather {
+  font-size: 26px;
+}
+.questions .questionBox .option {
+  font-size: 26px;
+}
+.questions .questionBox .or {
+  font-size: 34px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.form .or {
+  font-size: 50px;
 }
+
+.leaderboard {
+  font-size: 16px;
+  border-width: 20px !important;
+  color: white;
+}
+.leaderboard .index {
+  font-size: 40px;
+}
+.leaderboard .name {
+  font-size: 24px;
+}
+.leaderboard .number {
+  font-size: 42px;
+}
+
+.or {
+  font-size: 100px;
+}
+
+.loginCard {
+  border-width: 3px !important;
+  font-size: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

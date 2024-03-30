@@ -1,12 +1,12 @@
-import { QUESTIONS_RECIVE } from "../utils/constants"
+import { QUESTIONS_RECIVE, QUESTION_ADD, VOTES_UPDATE } from "../utils/constants"
 
 export const questions = (state = {}, action) => {
     switch (action.type) {
         case QUESTIONS_RECIVE:
             return { ...state, ...action.question }
-        case ADD_QUESTION:
+        case QUESTION_ADD:
             return { ...state, [action.question.id]: action.question }
-        case UPDATE_VOTES:
+        case VOTES_UPDATE:
             return {
                 ...state,
                 [action.questionId]: {
